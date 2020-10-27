@@ -1,1 +1,59 @@
 
+================================================================================
+OCT. 27 - Most Recent Plan
+================================================================================
+Approach:
+- Work on HTML elements first, then JavaScript, then CSS
+    - One page at a time, copy other aspects to following pages
+- Focus on each of the functionalities.
+------------------
+Work on one page at a time
+    - Log-in page - Rui & Harshal
+    - Link in sign-up page
+    - Homepage
+        - Search bar
+        - Anything Bag
+    - Restaurants
+    - Menu
+-------------------------------------
+*****IDEAS*****
+Nearby Restaurants
+    -> List of restaurants (can be sorted by distance from user’s delivery address)
+Restaurant Categories
+    -> change back and next with horizontal scrollbar
+Pop-up for unavailable options
+
+/*******************************************************/
+
+================================================================================
+OCT. 24 - Design Changes List
+================================================================================
+- Add tooltips
+- Tutorial at the beginning (with skip tutorial option)
+- NoDishes label to get to main page? - clear homepage button?
+- Back button
+- Profile pop-up
+- Distinction between some pages (honeycomb view)
+- Symbol for restaurant categories and nearby restaurants
+- Advanced search bar
+- Login - remove username, leave e-mail & phone number as log in option
+- Anything Bag - explanation to be there (“What’s an Anything Bag?” where it appears)
+      - Remove options - swipe or click x (toggle for deletion)
+      - Make sure to confirm user changes
+- Honeycomb View
+      - Scroll bar through options
+- Cart - Check out to be more clear
+- Book Menu
+      - Checkout button on menu (bottom right)
+          - When checkout button clicked, food cart will pop up
+- More restaurants
+      - Unique customizations
+          - Drinks options limited, so add more options
+      - More realistic menu options (e.g, no spaghetti in Tim Horton's)
+Bill page:
+      - Expiry Date
+      - Credit card no - no letters and special characters
+Place Order
+      - For guest - Thank u for ordering,
+      - For user - go back to anything bag
+E-mail/password (should be log-in info)
