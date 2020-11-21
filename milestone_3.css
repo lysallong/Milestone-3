@@ -51,6 +51,12 @@ div.absolute{
     padding: 80px 0;
 }
 
+#cart{
+    position: fixed;
+    bottom:0;
+    right:0;
+}
+
 #message{
     display:none;
     background: #f1f1f1;
