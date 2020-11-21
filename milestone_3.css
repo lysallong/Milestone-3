@@ -72,8 +72,22 @@ div.absolute{
 }
 
 #categories{
-    position: relative;
+    position: absolute;
     text-align: center;
+}
+
+#div.categories-buttons{
+    position: relative;
+}
+
+#up{
+    position: absolute;
+   float:right;
+}
+#down{
+    position: absolute;
+    float: right;
+    
 }
 
 #message{
