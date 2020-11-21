@@ -86,7 +86,6 @@ div.absolute{
 .valid:before {
     position: relative;
     left: -35px;
-    content: "✔";
 }
 
 /* Add a red text color and an "x" when the requirements are wrong */
@@ -97,5 +96,4 @@ div.absolute{
 .invalid:before {
     position: relative;
     left: -35px;
-    content: "✖";
 }
