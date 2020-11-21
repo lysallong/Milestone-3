@@ -67,6 +67,15 @@ div.absolute{
     text-align: center;
 }
 
+#categories-text{
+    text-align: center;
+}
+
+#categories{
+    position: relative;
+    text-align: center;
+}
+
 #message{
     display:none;
     background: #f1f1f1;
