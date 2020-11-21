@@ -7,25 +7,30 @@
     </head>
     <body>
         <div id = "logo">
-            <img src = "logo.png" width = "150" height = "100">
+            <img src = "logo.png" width = "150" height = "100" style = "border:5px solid black">
         </div>
         <div id = "motto">
-            <h1 style ="font-weight: bold; color: white">You Don't Deserve Dishes</h1>
+            <h1 style ="font-weight: bold; color: black">Please Enter your Username and Password</h1>
+            <h2 style ="font-weight: bold; color: black">you can skip login if you want to...</h2>
         </div>
         <div class = "absolute">
             <form action = "">
                 <label for = "username">USERNAME</label>
-                <input type = "text" id = "username" name = "username"placeholder = "Please enter your username" required autofocus>
+                <input type = "text" id = "username" name = "username" placeholder = "Please enter your username" required autofocus>
                 
                 <label for = "password">PASSWORD</label>
-                <input type = "password" id = "password" name = "password"placeholder = "Please enter your password" required>
+                <input type = "password" id = "password" name = "password" placeholder = "Please enter your password" required autofocus>
 
                 
                 <input type = "submit" Value = "Log In">
-                <input type = "button" Value = "Sign Up">
-                <input style = "background-color:#839184;
-                                position: absolute;
-                                right: 500px;"type = "button" Value = "Skip">
+                
+            </form>
+            <form action = "signup.html">
+                <input type = "submit" Value = "Sign up">
+                
+            </form>
+            <form action = "">
+                <input style = "background-color:#839184; right: 500px;" type = "submit" Value = "Skip">
             </form>
         </div>
     </body>

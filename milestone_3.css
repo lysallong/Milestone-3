@@ -1,9 +1,8 @@
-body{
-    background-image: url('food.jpeg');
+/*body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%
-}
+}*/
 
 input[type=text], input[type=password]{
     width: 100%;
@@ -15,8 +14,9 @@ input[type=text], input[type=password]{
     box-sizing: border-box;
 }
 
-input[type=submit], input[type=button]{
-    width: 10%;
+form {display: inline-block;}
+
+input[type=submit]{
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -24,7 +24,15 @@ input[type=submit], input[type=button]{
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    display: inline-block;
+    text-align: center;
 }
+#cart{
+    position: fixed;
+    bottom:0;
+    right:0;
+}
+
 
 input[type=submit]:hover, input[type=button]:hover{
     background-color: #8dc083;
@@ -33,22 +41,30 @@ input[type=submit]:hover, input[type=button]:hover{
 div.absolute{
     border-radius:5px;
     background-color: #f2f2f2;
-    padding: 30px;
+    padding: 25px;
     width : 50%;
     margin-left: auto;
     margin-right: auto;
     vertical-align: middle;
 }
 
+#signup{
+    border-radius:5px;
+    padding: 30px;
+    width : 50%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    
+}
+
 #logo{
-    position: fixed;
     text-align: center;
     width: 100%;
 }
 
 #motto{
     text-align: center;
-    padding: 80px 0;
 }
 
 #message{
@@ -70,7 +86,6 @@ div.absolute{
 .valid:before {
     position: relative;
     left: -35px;
-    content: "✔";
 }
 
 /* Add a red text color and an "x" when the requirements are wrong */
@@ -81,5 +96,4 @@ div.absolute{
 .invalid:before {
     position: relative;
     left: -35px;
-    content: "✖";
 }
