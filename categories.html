@@ -18,37 +18,77 @@
             transform: rotate(45deg);
             -webkit-transform: rotate(45deg);
         }
+        #categories1{
+            position: relative;
+            text-align: center;
+        }
     </style>
   </head>
 <body>
+
+
     <div id = "logo">
         <img src = "logo.png" width = "150" height = "100" style = "border:5px solid black">
     </div>
+
+
     <div id = "categories-text">
         <h1 style ="font-weight: bold; color: black">Restaurant Categories</h1>
     </div>
 
+
     <div id = "categories">
-      <img src="categories1.png" width = "" height = "" usemap="#image-map">
+      <img src="categories1.png" usemap="#image-map">
 
       <map name="image-map">
-           <area target="" alt="" title="" href="" coords="7,5,246,5,249,179,125,249,7,181" shape="poly">
-            <area target="" alt="" title="" href="" coords="255,7,494,5,493,178,373,248,253,180" shape="poly">
-            <area target="" alt="" title="" href="" coords="500,6,741,5,740,178,623,248,501,180" shape="poly">
-            <area target="" alt="" title="" href="" coords="251,187,129,257,130,427,370,430,369,255" shape="poly">
-            <area target="" alt="" title="" href="" coords="497,186,379,255,378,429,617,427,618,255" shape="poly">
+            <area alt="Asian Fusion" title="Asian Fusion Coming Soon" coords="7,5,246,5,249,179,125,249,7,181" shape="poly">
+            <area alt="Fast Food" title="Fast Food Available" href="fastFood.html" coords="255,7,494,5,493,178,373,248,253,180" shape="poly">
+            <area alt="Vegan Friendly" title="Vegan Friendly Coming Soon" coords="500,6,741,5,740,178,623,248,501,180" shape="poly">
+            <area alt="Greek" title="Greek Coming Soon" coords="251,187,129,257,130,427,370,430,369,255" shape="poly">
+            <area alt="Dessert" title="Dessert Coming Soon" coords="497,186,379,255,378,429,617,427,618,255" shape="poly">
       </map>
     </div>
+
+
+    <div hidden id = "categories1">
+      <img src="categories2.png" usemap="#image-map2">
+
+      <map name="image-map2">
+        <area alt="Seafood" title="Seafood Coming Soon" coords="7,5,246,5,249,179,125,249,7,181" shape="poly">
+        <area alt="Pizzeria" title="Pizzeria Coming Soon" coords="255,7,494,5,493,178,373,248,253,180" shape="poly">
+        <area alt="Cafe" title="Cafe Available" href="cafe.html" coords="500,6,741,5,740,178,623,248,501,180" shape="poly">
+        <area alt="Steakhouse" title="Steakhouse Coming Soon" coords="251,187,129,257,130,427,370,430,369,255" shape="poly">
+        <area alt="Ethiopian" title="Ethiopian Coming Soon" coords="497,186,379,255,378,429,617,427,618,255" shape="poly">
+      </map>
+    </div>
+
+
+
     <div style = "position: relative; left: 1030px; top: -420px;">
-        <i class="arrow up"></i>
+        <i class  = "arrow up" onclick = "arrowUp()"></i>
     </div>
+
+
     <div style = "position: relative; left: 1030px; top: -90px;">
-        <i class = "arrow down"></i>
+        <i class = "arrow down" onclick = "arrowDown()"></i>
     </div>
+
 
     <div id = "cart">
         <img src = "Cart.png" width = "150" height = "100">
     </div>
+
+
+    <script>
+        function arrowDown(){
+            document.getElementById("categories").setAttribute("hidden", true);
+            document.getElementById("categories1").removeAttribute("hidden");
+        }
+        function arrowUp(){
+            document.getElementById("categories1").setAttribute("hidden", true);
+            document.getElementById("categories").removeAttribute("hidden");
+        }
+    </script>
 
   </body>
 
