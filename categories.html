@@ -27,10 +27,11 @@
     </div>
 
     <div id = "categories">
-      <img src="categories1.png" width = "" height = "" usemap="#image-map">
+        
+        <img src="categories1.png" width = 800 height = 560 usemap="#image-map" id="imgClickAndChange"  >
 
-      <map name="image-map">
-           <area target="" alt="" title="" href="" coords="7,5,246,5,249,179,125,249,7,181" shape="poly">
+        <map name="image-map">
+            <area target="" alt="" title=""  href= "" coords="7,5,246,5,249,179,125,249,7,181" shape="poly" onclick="changeImage()">
             <area target="" alt="" title="" href="" coords="255,7,494,5,493,178,373,248,253,180" shape="poly">
             <area target="" alt="" title="" href="" coords="500,6,741,5,740,178,623,248,501,180" shape="poly">
             <area target="" alt="" title="" href="" coords="251,187,129,257,130,427,370,430,369,255" shape="poly">
@@ -42,7 +43,22 @@
     </div>
     <div style = "position: absolute; left: 1030px; top: 460px;">
         <i class = "arrow down"></i>
-    </div>
+
+    <div hidden id = "categories2">
+        
+      <img src="categories2.png" usemap="#image-map" id="imgClickAndChange2"  >
+
+      <map name="image-map">
+          <area target="" alt="" title="" href="" coords="7,5,246,5,249,179,125,249,7,181" shape="poly" onclick="changeImage2()">
+          <area target="" alt="" title="" href="" coords="255,7,494,5,493,178,373,248,253,180" shape="poly">
+          <area target="" alt="" title="" href="" coords="500,6,741,5,740,178,623,248,501,180" shape="poly">
+          <area target="" alt="" title="" href="" coords="251,187,129,257,130,427,370,430,369,255" shape="poly">
+          <area target="" alt="" title="" href="" coords="497,186,379,255,378,429,617,427,618,255" shape="poly">
+      </map>
+  </div>
+ 
+
+    
 
     <div id = "cart">
         <img src = "Cart.png" width = "150" height = "100">

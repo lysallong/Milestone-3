@@ -9,4 +9,16 @@ inputButton.onclick = function(){
         localStorage.setItem("address", address);
         location.reload();
     }
+
+    function changeImage() {
+        alert("testing");
+        document.getElementById("categories").addAttribute("hidden");
+        document.getElementById("categories2").removeAttribute("hidden");
+    }
+
+    function changeImage2() {
+
+        document.getElementById("categories2").addAttribute("hidden");
+        document.getElementById("categories").removeAttribute("hidden");
+    }
 }
