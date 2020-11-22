@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel = "stylesheet" href= "milestone_3.css">
+    
     <style>
         .arrow {
             border: solid black;
@@ -40,12 +41,12 @@
             <area target="" alt="" title="" href="" coords="497,186,379,255,378,429,617,427,618,255" shape="poly">
       </map>
     </div>
-    <div style = "position: relative; left: 1030px; top: -420px;">
+     <div style = "position: relative; left: 1030px; top: -420px;">
         <i class="arrow up"></i>
     </div>
     <div style = "position: relative; left: 1030px; top: -90px;">
         <i class = "arrow down"></i>
-    </div>
+    </div> 
     <div hidden id = "categories2">
         
       <img src="categories2.png" usemap="#image-map2" id="imgClickAndChange2"  >
@@ -66,6 +67,21 @@
         <img src = "Cart.png" width = "150" height = "100">
     </div>
 
+<script> function changeImage() {
+
+  
+     document.getElementById("categories").setAttribute("hidden",true );
+     document.getElementById("categories2").removeAttribute("hidden");
+   
+
+
+}
+
+function changeImage2() {
+
+    document.getElementById("categories2").setAttribute("hidden",true);
+    document.getElementById("categories").removeAttribute("hidden");
+}</script>
   </body>
 
 </html>
